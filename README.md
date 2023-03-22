@@ -1,11 +1,16 @@
-# login_form
+<h1>Formulário de Login</h1>
 
-## Começando
+<h2>Sobre</h2>
 
-Este projeto em Flutter serve como estudo e consulta.
+<p>Este projeto em Flutter serve como estudo e consulta.</p>
+<p>Um formulário de login simples com indicações de entradas erradas ou corretas.</p>
 
-Um formulário de login simples com indicações de entradas erradas ou corretas.
-
-![Screenshot](assets\apps_img\app_home.png)
+<div align="center">
+  <h3>
+    <a href='\assets\apps_img\app_home.png'>
+      Tela principal
+    </a>
+  </h3>
+</div>
 
 
