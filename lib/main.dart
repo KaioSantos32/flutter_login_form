@@ -130,13 +130,17 @@ class Form extends StatelessWidget {
           ),
           textAlign: TextAlign.left,
         ),
-        TextField(
-          controller: controller,
-          obscureText: obscureText,
-          decoration: InputDecoration(
-            labelText: textInputLabel,
-            border: const OutlineInputBorder(
-              borderSide: BorderSide(width: 2.0, color: Colors.black),
+        SizedBox(
+          width: MediaQuery.of(context).size.width/5,
+          child: TextField(
+            controller: controller,
+            obscureText: obscureText,
+            maxLength: 100,
+            decoration: InputDecoration(
+              labelText: textInputLabel,
+              border: const OutlineInputBorder(
+                borderSide: BorderSide(width: 2.0, color: Colors.black),
+              ),
             ),
           ),
         ),
