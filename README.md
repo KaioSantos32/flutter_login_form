@@ -1,6 +1,6 @@
 <h1>Formulário de Login</h1>
 
-<h2>Começando</h2>
+<h2>Sobre</h2>
 
 <p>Este projeto em Flutter serve como estudo e consulta.</p>
 <p>Um formulário de login simples com indicações de entradas erradas ou corretas.</p>
