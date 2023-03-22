@@ -30,8 +30,8 @@ class _HomePageState extends State<HomePage> {
       showDialog(
         context: context,
         builder: (BuildContext context) => const AlertDialog(
-          title: Text('Successful'),
-          content: Text('Login was Successful'),
+          title: Text('Sucesso!'),
+          content: Text('Login concluído com sucesso'),
         ),
       );
       username.clear();
@@ -40,8 +40,8 @@ class _HomePageState extends State<HomePage> {
       showDialog(
         context: context,
         builder: (BuildContext context) => const AlertDialog(
-          title: Text('Something\'s Wrong'),
-          content: Text('Username or Password are incorrect'),
+          title: Text('Algo deu errado'),
+          content: Text('Usuario ou senha incorretos...'),
         ),
       );
       username.clear();
@@ -66,16 +66,16 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             children: [
               Form(
-                formTitle: "Login",
-                textInputLabel: "Username: User1",
+                formTitle: "Usuário",
+                textInputLabel: "Use: User1",
                 controller: username,
               ),
               Container(
                 height: 30,
               ),
               Form(
-                formTitle: "Password",
-                textInputLabel: "Password: 01234",
+                formTitle: "Senha",
+                textInputLabel: "Use: 01234",
                 controller: password,
                 obscureText: true,
               ),
@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                     minimumSize: Size(100, 50),
                   ),
                   child: const Text(
-                    "Login",
+                    "Entrar",
                     style: TextStyle(
                       fontSize: 20,
                     ),
