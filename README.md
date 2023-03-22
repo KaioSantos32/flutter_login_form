@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href='\assets\apps_img\app_home.png'>
+    <a href='\assets\apps_img\app_home_pt_br.png'>
       Tela principal
     </a>
   </h3>
