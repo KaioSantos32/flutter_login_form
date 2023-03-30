@@ -11,8 +11,9 @@
       Tela principal
     </a>
   </h3>
-  <p>Caso queira testar o app basta baixar, colocar onde for melhor para você e abrir o terminal na pasta.</p>
-  <p>Após abrir, escreva "flutter clean" para reconstruir o app para teu dispositivo e dar Run.</p>
 </div>
+
+<p>Caso queira testar o app basta baixar, colocar onde for melhor para você e abrir o terminal na pasta.</p>
+<p>Após abrir, escreva "flutter clean" para reconstruir o app para teu dispositivo e dar Run.</p>
 
 
